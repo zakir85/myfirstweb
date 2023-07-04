@@ -1,0 +1,30 @@
+1   <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>html form</title>
+</head>
+<body>
+    <i class="fa fa-address-book-o" style="font-size:36px"></i>
+    <h1>Sign Up</h1>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="firstName" placeholder="Write your name"><br/><br>
+
+        <!--label and input's for & id are same name-->
+
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required><br><br>
+
+        <label for="passwd">Password:</label>
+        <input type="password" id="passwd" name="passwd"><br><br>
+           
+        <input type="button" onclick="alert('Do you want to sign Up! Please click submit button')" value="Click Me!">
+        <input type="submit" value="Submit">
+        <hr>
+
+    </form>
+</body>
+</html>
