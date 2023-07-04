@@ -1,2 +1,1 @@
-﻿# myfirstweb 
-This is HTML learning project. Here we use  some HTML tags.
+This is HTML learning project. Here I use  some HTML tags.
